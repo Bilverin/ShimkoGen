@@ -1,0 +1,11 @@
+.app {
+	min-width: 320px; height: 100vh; position: relative;
+	overflow-x: hidden;
+	background: url("../img/05-1.jpg") center center repeat;
+	animation: backgroundScroll 200s linear infinite;
+	.wr {
+		&-content {
+			width: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+		}
+	} 
+}
